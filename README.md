@@ -1,19 +1,42 @@
-<p align="center">
-    <img width="300" src="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/assets/images/banner/logo.svg">
-</p>
+<p align="center" id="topo"> <img width="300" src="./assets/images/readme/logo.png"/> </p>
 
--------
-Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)? 
+Construindo um Landing Page com HTML CSS e JS
 
-## ▶️ Semana Front-end
-- [Live Dia 01](https://www.youtube.com/watch?v=FZgIQUDn8zo)
-- [Live Dia 02](https://www.youtube.com/watch?v=WHbhgxJLbN4)
-## 💻 Tecnologias
+
+Endereço surge: <a href="http://mundo-invertido.surge.sh/" target="_blank">**Mundo Invertido**</a>
+
+Endereço gitPage: <a href="https://rickhardbr.github.io/Mundo-Invertido-Dio/" target="_blank">**Mundo Invertido**</a>
+
+  * [Indice](#funciona)
+      * <a href="https://github.com/digitalinnovationone/semana-frontend-mundo-invertido" target="new">O Desafio Mundo Invertido.DIO</a>
+      * [Aulas](#aulas)
+      * [tecnologias](#tecnologias)
+      * [Assuntos Abordados](#assuntos)
+      * [Links auxiliares](#links)
+      * [Extra](#extra)
+      * [Imagens](#imagens)
+
+
+<h2 id="aulas"> ▶️ Semana Front-end</h2>
+
+---
+
+
+- <a href="https://www.youtube.com/watch?v=FZgIQUDn8zo" target="_blank">Live Dia 01 - HTML - CSS - JS</a>
+  
+- <a href="https://www.youtube.com/watch?v=WHbhgxJLbN4">Live Dia 02 - JavaScript</a>
+  
+- <a href="https://www.youtube.com/watch?v=x6oegBgBcG8&t=3517s">Live Dia 03 - Angular x React</a>
+  
+---
+
+<h2 id="tecnologias"> 💻 Tecnologias</h2>
+
 - HTML
 - CSS
 - JavaScript
+<h2 id="assuntos"> 💬 Assuntos abordados</h2>
 
-## 💬 Assuntos abordados
 - HTML
     - Estruturação da página 
     - Semântica
@@ -32,76 +55,67 @@ Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Inve
     - Introdução ao Firebase
     - Integração com o Firebase
 
-## 🎨 Variáveis do Tema CSS
-```css
-/*** VARIABLES & THEMES ***/
+---
 
-:root {
-  --primary-color: #cf0f0f;
-  --primary-color-contrast: #ffffff;
-  --field-background-color: #000;
-}
+<h2 id="links">🔗 Links auxiliares</h2>
 
-.light-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #ffffff 65%,
-    rgba(255, 255, 255, 0.75) 100%
-  );
-  --header-background-color: #e3e3e3;
-  --highlight-color: #000000;
-  --featured-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-top-image-color: #ffffff;
-  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-bottom-image-color: #e5e5e5;
-  --background-lamp-image: url("../images/backgrounds/lamps.png");
-  --footer-background-color: #b5bbbf;
-}
 
-.dark-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #050000 0%,
-    #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
-  --header-background-color: #220f0f;
-  --highlight-color: #ffffff;
-  --featured-font-family: "Rubik Glitch", sans-serif;
-  --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-  --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-top-image-color: #000;
-  --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
-  --footer-background-color: #000;
-}
+- <a href="http://w3c.org">W3C - World Wide Web Consortium</a>
+- <a href="https://www.w3.org/WAI/">WAI - Web Acessibility Initiative</a>
+- <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG 2</a>
+- <a href="https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1">Figma</a>
+- <a href="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/">Demo</a>
+
+---
+<h1 id="extra">Extra</h1>
+
+> Acrescetei o id="scrollbar" para estilizar a barra de rolagem
+
+```html
+<body class="light-theme" aria-label="O site está utilizando o tema light" role="body" id="scrollbar">
+
 ```
-## 🔗 Links auxiliares
 
-- [W3C - World Wide Web Consortium](http://w3c.org)
-- [WAI - Web Acessibility Initiative](https://www.w3.org/WAI/)
-- [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
-- [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
-- [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
-## 🌎 Nossas redes sociais
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/16018277?v=4"/>
-    <p>&nbsp&nbsp&nbspDiogo Medeiros Mainardes<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/diogomainardes.dev">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/diogomainardes">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/diogomainardes/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/dimmbr">Twitch</a></p>
+> e na estilização ficou assim:
+
+```css
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  };
+
+body::-webkit-scrollbar-track  {
+  background-color: rgba(131, 5, 5, 0.6);
+  }
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 1, 1);
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px; 
+  }
+
+```
+
+> Também criei um favicon para a página
+
+
+<h1 align="center" id="imagens">Imagens</h1>
+
+<p align="center">
+<img width="300" src="./assets/images/favicon.png">
 </p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
+
+<p align="center">
+<img width="500" id='pagefulllighttheme' src='./assets/images/readme/pagefull.png'>
 </p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/3266640?v=4"/>
-    <p>&nbsp&nbsp&nbspRenan Johannsen de Paula <br>
-    &nbsp&nbsp&nbsp<a href="https://github.com/RenanJPaula">GitHub</a>&nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/renanjpaula/">LinkedIn</a>
-    </p>
+<h4 align="right"><a href="#topo">Topo</a></h4>
+
+<p align="center">
+<img align="center" width="500" id='pagefulldarktheme' src='./assets/images/readme/pagefulldark.png'>
 </p>
+<h4 align="right"><a href="#topo">Topo</a></h4>
+
+<p align="center">
+<img align="center" width="500" id='pagefulldarktheme' src='./assets/images/readme/scrollbar.jpg'>
+</p>
+<h4 align="right"><a href="#topo">Topo</a></h4>
